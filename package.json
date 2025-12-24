@@ -1,0 +1,21 @@
+{
+  "name": "heisenberg-retro",
+  "displayName": "Heisenberg_Retro",
+  "description": "A vs code theme inspired by the Helix-Theme Heisenberg.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Heisenberg_Retro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Heisenberg_Retro-color-theme.json"
+      }
+    ]
+  }
+}
