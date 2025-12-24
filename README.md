@@ -1,6 +1,6 @@
-# Heisenberg Theme for VS Code
+# Heisenberg_Retro Theme for VS Code
 
-A dark theme for Visual Studio Code based on the Heisenberg color scheme from Helix editor.
+A dark theme for Visual Studio Code based on the Heisenberg color theme from Helix editor.
 
 ![Theme Preview](preview.png)
 
