@@ -2,7 +2,7 @@
 
 A dark theme for Visual Studio Code based on the Heisenberg color scheme from Helix editor.
 ```
-![Theme Preview](preview.png)
+[Theme Preview](preview.png)
 ```
 ## Features
 
@@ -32,7 +32,7 @@ A dark theme for Visual Studio Code based on the Heisenberg color scheme from He
 ## Installation
 
 1. Open the Extensions sidebar in VS Code
-2. Search for "Heisenberg Theme"
+2. Search for "Heisenberg_Retro"
 3. Click Install
 4. Go to `File > Preferences > Color Theme` and select "Heisenberg"
 
@@ -50,9 +50,3 @@ To build from source:
 ```bash
 # Clone the repository
  git clone https://github.com/CatalystPulse/heisenberg-retro
-
-# Install dependencies
-npm install
-
-# Package the theme
-vsce package
