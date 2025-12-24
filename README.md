@@ -49,7 +49,7 @@ To build from source:
 
 ```bash
 # Clone the repository
-# git clone https://github.com/irishmaestro/heisenberg-vscode-theme.git
+ git clone https://github.com/CatalystPulse/heisenberg-retro
 
 # Install dependencies
 npm install

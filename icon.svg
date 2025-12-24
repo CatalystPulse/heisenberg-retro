@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 黑色背景 -->
+  <rect width="128" height="128" fill="#000000"/>
+  
+  <!-- 外层轨道 (水晶蓝) -->
+  <ellipse cx="64" cy="64" rx="48" ry="32" stroke="#32c9fa" stroke-width="3" fill="none" opacity="0.8">
+    <animateTransform attributeName="transform" type="rotate" from="0 64 64" to="360 64 64" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- 中层轨道 (水晶蓝) -->
+  <ellipse cx="64" cy="64" rx="40" ry="24" stroke="#32c9fa" stroke-width="2" fill="none" opacity="0.7" transform="rotate(45 64 64)">
+    <animateTransform attributeName="transform" type="rotate" from="45 64 64" to="405 64 64" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- 内层轨道 (钡绿) -->
+  <ellipse cx="64" cy="64" rx="30" ry="18" stroke="#009669" stroke-width="2" fill="none" opacity="0.8" transform="rotate(-30 64 64)">
+    <animateTransform attributeName="transform" type="rotate" from="-30 64 64" to="330 64 64" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- 原子核 (钡绿) -->
+  <circle cx="64" cy="64" r="12" fill="#009669">
+    <animate attributeName="r" values="12;14;12" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 原子核上的 H 字母 (白色) -->
+  <text x="64" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#FFFFFF">H</text>
+  
+  <!-- 电子点 - 外层轨道上的3个 -->
+  <circle cx="112" cy="64" r="4" fill="#32c9fa">
+    <animateTransform attributeName="transform" type="rotate" from="0 64 64" to="360 64 64" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="64" cy="32" r="4" fill="#32c9fa">
+    <animateTransform attributeName="transform" type="rotate" from="90 64 64" to="450 64 64" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="16" cy="64" r="4" fill="#32c9fa">
+    <animateTransform attributeName="transform" type="rotate" from="180 64 64" to="540 64 64" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 电子点 - 中层轨道上的2个 -->
+  <circle cx="104" cy="40" r="3" fill="#32c9fa" transform="rotate(45 64 64)">
+    <animateTransform attributeName="transform" type="rotate" from="45 64 64" to="405 64 64" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="24" cy="88" r="3" fill="#32c9fa" transform="rotate(225 64 64)">
+    <animateTransform attributeName="transform" type="rotate" from="225 64 64" to="585 64 64" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 电子点 - 内层轨道上的1个 -->
+  <circle cx="94" cy="46" r="3" fill="#009669" transform="rotate(-30 64 64)">
+    <animateTransform attributeName="transform" type="rotate" from="-30 64 64" to="330 64 64" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 量子云效果 - 外圈光晕 -->
+  <circle cx="64" cy="64" r="56" fill="none" stroke="url(#glowGradient)" stroke-width="1" opacity="0.3"/>
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <radialGradient id="nucleusGradient">
+      <stop offset="0%" stop-color="#009669" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00ff80" stop-opacity="0.5"/>
+    </radialGradient>
+    
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#32c9fa" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#32c9fa" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#32c9fa" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
