@@ -2,6 +2,12 @@
 
 A dark theme for Visual Studio Code based on the Heisenberg color theme from Helix editor.
 
+```
+https://helix-editor.vercel.app/reference/list-of-themes#heisenberg
+```
+
+
+
 ![Theme Preview](preview.png)
 
 ## Features
@@ -50,3 +56,5 @@ To build from source:
 ```bash
 # Clone the repository
  git clone https://github.com/CatalystPulse/heisenberg-retro
+
+```
